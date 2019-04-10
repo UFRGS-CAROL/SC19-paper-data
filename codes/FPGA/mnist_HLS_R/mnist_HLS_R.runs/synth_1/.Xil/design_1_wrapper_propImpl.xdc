@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/constrs_1/new/xdc.xdc rfile:../../../mnist_HLS_R.srcs/constrs_1/new/xdc.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AA11 [get_ports tx]
+set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y10 [get_ports rx]

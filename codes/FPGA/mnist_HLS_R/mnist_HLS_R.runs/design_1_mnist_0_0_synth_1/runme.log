@@ -1,0 +1,813 @@
+
+*** Running vivado
+    with args -log design_1_mnist_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_mnist_0_0.tcl
+
+awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source design_1_mnist_0_0.tcl -notrace
+Command: synth_design -top design_1_mnist_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 10706 
+awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1101.562 ; gain = 171.086 ; free physical = 5351 ; free virtual = 25031
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_mnist_0_0' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/synth/design_1_mnist_0_0.vhd:81]
+INFO: [Synth 8-3491] module 'mnist' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:12' bound to instance 'U0' of component 'mnist' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/synth/design_1_mnist_0_0.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'mnist' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:40]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:132]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:135]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:156]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:158]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:161]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:163]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:167]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:173]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:177]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:181]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:185]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:192]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:196]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:200]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:206]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:210]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:214]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:218]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:289]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:294]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:300]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:303]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:306]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:308]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:311]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:313]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:316]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:325]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:327]
+INFO: [Synth 8-3491] module 'mnist_ip1Biases' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:99' bound to instance 'ip1Biases_U' of component 'mnist_ip1Biases' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:668]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip1Biases' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:112]
+INFO: [Synth 8-3491] module 'mnist_ip1Biases_rom' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:12' bound to instance 'mnist_ip1Biases_rom_U' of component 'mnist_ip1Biases_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:124]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip1Biases_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip1Biases_rom' (1#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip1Biases' (2#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Biases.vhd:112]
+INFO: [Synth 8-3491] module 'mnist_ip1Weights' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Weights.vhd:1505' bound to instance 'ip1Weights_U' of component 'mnist_ip1Weights' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:680]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip1Weights' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Weights.vhd:1518]
+INFO: [Synth 8-3491] module 'mnist_ip1Weights_rom' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Weights.vhd:12' bound to instance 'mnist_ip1Weights_rom_U' of component 'mnist_ip1Weights_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Weights.vhd:1530]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip1Weights_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Weights.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip1Weights_rom' (3#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Weights.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip1Weights' (4#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Weights.vhd:1518]
+INFO: [Synth 8-3491] module 'mnist_ip2Biases' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:79' bound to instance 'ip2Biases_U' of component 'mnist_ip2Biases' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:692]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip2Biases' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_ip2Biases_rom' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:12' bound to instance 'mnist_ip2Biases_rom_U' of component 'mnist_ip2Biases_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip2Biases_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip2Biases_rom' (5#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip2Biases' (6#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Biases.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_ip2Weights' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Weights.vhd:365' bound to instance 'ip2Weights_U' of component 'mnist_ip2Weights' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:704]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip2Weights' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Weights.vhd:378]
+INFO: [Synth 8-3491] module 'mnist_ip2Weights_rom' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Weights.vhd:12' bound to instance 'mnist_ip2Weights_rom_U' of component 'mnist_ip2Weights_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Weights.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip2Weights_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Weights.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip2Weights_rom' (7#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Weights.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip2Weights' (8#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip2Weights.vhd:378]
+INFO: [Synth 8-3491] module 'mnist_AXILiteS_s_axi' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:12' bound to instance 'mnist_AXILiteS_s_axi_U' of component 'mnist_AXILiteS_s_axi' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:716]
+INFO: [Synth 8-638] synthesizing module 'mnist_AXILiteS_s_axi' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:81]
+INFO: [Synth 8-3491] module 'mnist_AXILiteS_s_axi_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:549' bound to instance 'int_inputImage' of component 'mnist_AXILiteS_s_axi_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'mnist_AXILiteS_s_axi_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:572]
+INFO: [Synth 8-256] done synthesizing module 'mnist_AXILiteS_s_axi_ram' (9#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:572]
+INFO: [Synth 8-3491] module 'mnist_AXILiteS_s_axi_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:549' bound to instance 'int_outputVector' of component 'mnist_AXILiteS_s_axi_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:202]
+INFO: [Synth 8-638] synthesizing module 'mnist_AXILiteS_s_axi_ram__parameterized1' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:572]
+INFO: [Synth 8-256] done synthesizing module 'mnist_AXILiteS_s_axi_ram__parameterized1' (9#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:572]
+INFO: [Synth 8-256] done synthesizing module 'mnist_AXILiteS_s_axi' (10#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_AXILiteS_s_axi.vhd:81]
+INFO: [Synth 8-3491] module 'mnist_conv1Output_0' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv1Output_0.vhd:77' bound to instance 'conv1Output_0_U' of component 'mnist_conv1Output_0' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:754]
+INFO: [Synth 8-638] synthesizing module 'mnist_conv1Output_0' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv1Output_0.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_conv1Output_0_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv1Output_0.vhd:13' bound to instance 'mnist_conv1Output_0_ram_U' of component 'mnist_conv1Output_0_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv1Output_0.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'mnist_conv1Output_0_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv1Output_0.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_conv1Output_0_ram' (11#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv1Output_0.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_conv1Output_0' (12#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv1Output_0.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_pool1Output_0' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool1Output_0.vhd:77' bound to instance 'pool1Output_0_U' of component 'mnist_pool1Output_0' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:768]
+INFO: [Synth 8-638] synthesizing module 'mnist_pool1Output_0' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool1Output_0.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_pool1Output_0_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool1Output_0.vhd:13' bound to instance 'mnist_pool1Output_0_ram_U' of component 'mnist_pool1Output_0_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool1Output_0.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'mnist_pool1Output_0_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool1Output_0.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_pool1Output_0_ram' (13#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool1Output_0.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_pool1Output_0' (14#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool1Output_0.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_conv2Output' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv2Output.vhd:77' bound to instance 'conv2Output_U' of component 'mnist_conv2Output' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:782]
+INFO: [Synth 8-638] synthesizing module 'mnist_conv2Output' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv2Output.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_conv2Output_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv2Output.vhd:13' bound to instance 'mnist_conv2Output_ram_U' of component 'mnist_conv2Output_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv2Output.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'mnist_conv2Output_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv2Output.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_conv2Output_ram' (15#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv2Output.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_conv2Output' (16#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_conv2Output.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_pool2Output' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool2Output.vhd:77' bound to instance 'pool2Output_U' of component 'mnist_pool2Output' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:796]
+INFO: [Synth 8-638] synthesizing module 'mnist_pool2Output' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool2Output.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_pool2Output_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool2Output.vhd:13' bound to instance 'mnist_pool2Output_ram_U' of component 'mnist_pool2Output_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool2Output.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'mnist_pool2Output_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool2Output.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_pool2Output_ram' (17#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool2Output.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_pool2Output' (18#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_pool2Output.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_ip1Output' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:77' bound to instance 'ip1Output_U' of component 'mnist_ip1Output' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:810]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip1Output' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_ip1Output_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:13' bound to instance 'mnist_ip1Output_ram_U' of component 'mnist_ip1Output_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'mnist_ip1Output_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip1Output_ram' (19#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ip1Output' (20#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_ip1Output' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_ip1Output.vhd:77' bound to instance 'relu1Output_U' of component 'mnist_ip1Output' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:824]
+INFO: [Synth 8-3491] module 'mnist_outputVectog8j' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_outputVectog8j.vhd:77' bound to instance 'outputVector_assign_1_U' of component 'mnist_outputVectog8j' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:838]
+INFO: [Synth 8-638] synthesizing module 'mnist_outputVectog8j' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_outputVectog8j.vhd:92]
+INFO: [Synth 8-3491] module 'mnist_outputVectog8j_ram' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_outputVectog8j.vhd:13' bound to instance 'mnist_outputVectog8j_ram_U' of component 'mnist_outputVectog8j_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_outputVectog8j.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'mnist_outputVectog8j_ram' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_outputVectog8j.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_outputVectog8j_ram' (21#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_outputVectog8j.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'mnist_outputVectog8j' (22#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_outputVectog8j.vhd:92]
+INFO: [Synth 8-3491] module 'conv1' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:12' bound to instance 'grp_conv1_fu_342' of component 'conv1' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:852]
+INFO: [Synth 8-638] synthesizing module 'conv1' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:30]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:74]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:77]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:84]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:93]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:101]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:110]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:113]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:117]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:121]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:126]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:134]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:140]
+INFO: [Synth 8-3491] module 'conv1_conv1Filterbkb' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:85' bound to instance 'conv1Filters_0_0_U' of component 'conv1_conv1Filterbkb' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'conv1_conv1Filterbkb' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:98]
+INFO: [Synth 8-3491] module 'conv1_conv1Filterbkb_rom' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:12' bound to instance 'conv1_conv1Filterbkb_rom_U' of component 'conv1_conv1Filterbkb_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'conv1_conv1Filterbkb_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:27]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'conv1_conv1Filterbkb_rom' (23#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'conv1_conv1Filterbkb' (24#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1_conv1Filterbkb.vhd:98]
+INFO: [Synth 8-3491] module 'mnist_fadd_32ns_3cud' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fadd_32ns_3cud.vhd:11' bound to instance 'mnist_fadd_32ns_3cud_U1' of component 'mnist_fadd_32ns_3cud' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'mnist_fadd_32ns_3cud' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fadd_32ns_3cud.vhd:29]
+INFO: [Synth 8-3491] module 'mnist_ap_fadd_3_full_dsp_32' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fadd_3_full_dsp_32.vhd:59' bound to instance 'mnist_ap_fadd_3_full_dsp_32_u' of component 'mnist_ap_fadd_3_full_dsp_32' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fadd_32ns_3cud.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'mnist_ap_fadd_3_full_dsp_32' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fadd_3_full_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/ad02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fadd_3_full_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ap_fadd_3_full_dsp_32' (42#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fadd_3_full_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'mnist_fadd_32ns_3cud' (43#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fadd_32ns_3cud.vhd:29]
+INFO: [Synth 8-3491] module 'mnist_fmul_32ns_3dEe' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fmul_32ns_3dEe.vhd:11' bound to instance 'mnist_fmul_32ns_3dEe_U2' of component 'mnist_fmul_32ns_3dEe' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'mnist_fmul_32ns_3dEe' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fmul_32ns_3dEe.vhd:29]
+INFO: [Synth 8-3491] module 'mnist_ap_fmul_2_max_dsp_32' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fmul_2_max_dsp_32.vhd:59' bound to instance 'mnist_ap_fmul_2_max_dsp_32_u' of component 'mnist_ap_fmul_2_max_dsp_32' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fmul_32ns_3dEe.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'mnist_ap_fmul_2_max_dsp_32' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fmul_2_max_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/ad02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fmul_2_max_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ap_fmul_2_max_dsp_32' (51#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fmul_2_max_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'mnist_fmul_32ns_3dEe' (52#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fmul_32ns_3dEe.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'conv1' (53#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:30]
+INFO: [Synth 8-3491] module 'conv2' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:12' bound to instance 'grp_conv2_fu_352' of component 'conv2' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:868]
+INFO: [Synth 8-638] synthesizing module 'conv2' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:30]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:76]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:79]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:86]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:95]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:102]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:109]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:118]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:121]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:125]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:129]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:137]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:143]
+INFO: [Synth 8-3491] module 'conv2_conv2FilterfYi' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2_conv2FilterfYi.vhd:113' bound to instance 'conv2Filters_0_U' of component 'conv2_conv2FilterfYi' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:233]
+INFO: [Synth 8-638] synthesizing module 'conv2_conv2FilterfYi' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2_conv2FilterfYi.vhd:126]
+INFO: [Synth 8-3491] module 'conv2_conv2FilterfYi_rom' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2_conv2FilterfYi.vhd:12' bound to instance 'conv2_conv2FilterfYi_rom_U' of component 'conv2_conv2FilterfYi_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2_conv2FilterfYi.vhd:138]
+INFO: [Synth 8-638] synthesizing module 'conv2_conv2FilterfYi_rom' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2_conv2FilterfYi.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'conv2_conv2FilterfYi_rom' (54#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2_conv2FilterfYi.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'conv2_conv2FilterfYi' (55#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2_conv2FilterfYi.vhd:126]
+INFO: [Synth 8-3491] module 'mnist_fadd_32ns_3cud' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fadd_32ns_3cud.vhd:11' bound to instance 'mnist_fadd_32ns_3cud_x_U9' of component 'mnist_fadd_32ns_3cud' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:245]
+INFO: [Synth 8-3491] module 'mnist_fmul_32ns_3dEe' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fmul_32ns_3dEe.vhd:11' bound to instance 'mnist_fmul_32ns_3dEe_x_U10' of component 'mnist_fmul_32ns_3dEe' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:260]
+INFO: [Synth 8-3491] module 'mnist_mux_32_32_1' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_mux_32_32_1.vhd:13' bound to instance 'mnist_mux_32_32_1_U11' of component 'mnist_mux_32_32_1' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:275]
+INFO: [Synth 8-638] synthesizing module 'mnist_mux_32_32_1' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_mux_32_32_1.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'mnist_mux_32_32_1' (56#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_mux_32_32_1.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'conv2' (57#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:30]
+INFO: [Synth 8-3491] module 'pool1' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:12' bound to instance 'grp_pool1_fu_360' of component 'pool1' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:884]
+INFO: [Synth 8-638] synthesizing module 'pool1' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:30]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:69]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:72]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:76]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:84]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:88]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:92]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:99]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:103]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:107]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:110]
+INFO: [Synth 8-3491] module 'mnist_fcmp_32ns_3eOg' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fcmp_32ns_3eOg.vhd:11' bound to instance 'mnist_fcmp_32ns_3eOg_U6' of component 'mnist_fcmp_32ns_3eOg' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'mnist_fcmp_32ns_3eOg' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fcmp_32ns_3eOg.vhd:27]
+INFO: [Synth 8-3491] module 'mnist_ap_fcmp_0_no_dsp_32' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fcmp_0_no_dsp_32.vhd:59' bound to instance 'mnist_ap_fcmp_0_no_dsp_32_u' of component 'mnist_ap_fcmp_0_no_dsp_32' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fcmp_32ns_3eOg.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'mnist_ap_fcmp_0_no_dsp_32' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fcmp_0_no_dsp_32.vhd:72]
+INFO: [Synth 8-3491] module 'floating_point_v7_1_3' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/ad02/hdl/floating_point_v7_1_vh_rfs.vhd:91604' bound to instance 'U0' of component 'floating_point_v7_1_3' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fcmp_0_no_dsp_32.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'mnist_ap_fcmp_0_no_dsp_32' (61#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/ip/mnist_ap_fcmp_0_no_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'mnist_fcmp_32ns_3eOg' (62#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fcmp_32ns_3eOg.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'pool1' (63#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:30]
+INFO: [Synth 8-3491] module 'pool2' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:12' bound to instance 'grp_pool2_fu_366' of component 'pool2' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:900]
+INFO: [Synth 8-638] synthesizing module 'pool2' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:30]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:68]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:71]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:75]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:82]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:91]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:95]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:101]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:108]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:112]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:116]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:119]
+INFO: [Synth 8-3491] module 'mnist_fcmp_32ns_3eOg' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fcmp_32ns_3eOg.vhd:11' bound to instance 'mnist_fcmp_32ns_3eOg_x_U15' of component 'mnist_fcmp_32ns_3eOg' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:174]
+INFO: [Synth 8-256] done synthesizing module 'pool2' (64#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool2.vhd:30]
+INFO: [Synth 8-3491] module 'mnist_fadd_32ns_3cud' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fadd_32ns_3cud.vhd:11' bound to instance 'mnist_fadd_32ns_3cud_x_U18' of component 'mnist_fadd_32ns_3cud' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:916]
+INFO: [Synth 8-3491] module 'mnist_fmul_32ns_3dEe' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fmul_32ns_3dEe.vhd:11' bound to instance 'mnist_fmul_32ns_3dEe_x_U19' of component 'mnist_fmul_32ns_3dEe' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:931]
+INFO: [Synth 8-3491] module 'mnist_fcmp_32ns_3eOg' declared at '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist_fcmp_32ns_3eOg.vhd:11' bound to instance 'mnist_fcmp_32ns_3eOg_x_U20' of component 'mnist_fcmp_32ns_3eOg' [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:946]
+INFO: [Synth 8-256] done synthesizing module 'mnist' (65#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/mnist.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'design_1_mnist_0_0' (66#1) [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/synth/design_1_mnist_0_0.vhd:81]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized281 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized281 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized281 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized281 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized281 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized279 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized279 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized279 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized279 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized279 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized277 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized277 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized277 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized277 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized277 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized5 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized273 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized273 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized273 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized273 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized273 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_ne_im has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized275 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized275 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized275 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized275 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized275 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized4 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized271 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized271 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized271 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized271 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized271 has unconnected port SINIT
+WARNING: [Synth 8-3331] design compare_eq_im__parameterized3 has unconnected port CARRYS_OUT[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized289 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized289 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized289 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized289 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized289 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized287 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized287 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized287 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized287 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized287 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized285 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized285 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized285 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized285 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized285 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized283 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized283 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized283 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized283 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized283 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized303 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized303 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized303 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized303 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized303 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized301 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized301 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized301 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized301 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized301 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized299 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized299 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized299 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized299 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized299 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized297 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized297 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized297 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized297 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized297 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized295 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized295 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized295 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized295 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized295 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized293 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized293 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized293 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized293 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized293 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized291 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized291 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized291 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized291 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized291 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized269 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized269 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized269 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized269 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_3_viv__parameterized269 has unconnected port SINIT
+WARNING: [Synth 8-3331] design floating_point_v7_1_3_viv__parameterized3 has unconnected port m_axis_result_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_3_viv__parameterized3 has unconnected port m_axis_result_tlast
+WARNING: [Synth 8-3331] design floating_point_v7_1_3_viv__parameterized3 has unconnected port aclken
+WARNING: [Synth 8-3331] design floating_point_v7_1_3_viv__parameterized3 has unconnected port aresetn
+WARNING: [Synth 8-3331] design floating_point_v7_1_3_viv__parameterized3 has unconnected port s_axis_a_tuser[0]
+WARNING: [Synth 8-3331] design floating_point_v7_1_3_viv__parameterized3 has unconnected port s_axis_a_tlast
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1210.031 ; gain = 279.555 ; free physical = 4856 ; free virtual = 24539
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1210.031 ; gain = 279.555 ; free physical = 4851 ; free virtual = 24534
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 456 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/constraints/mnist_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/constraints/mnist_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.runs/design_1_mnist_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.runs/design_1_mnist_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  FDE => FDRE: 9 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1565.219 ; gain = 1.000 ; free physical = 4417 ; free virtual = 24101
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 1565.219 ; gain = 634.742 ; free physical = 4377 ; free virtual = 24061
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 1565.219 ; gain = 634.742 ; free physical = 4377 ; free virtual = 24061
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 1565.219 ; gain = 634.742 ; free physical = 4377 ; free virtual = 24061
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "mem". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "mem". This will be implemented in logic
+INFO: [Synth 8-5544] ROM "AWREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "WREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BVALID" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ARREADY_t" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "mem". This will be implemented in logic
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:635]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:635]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:635]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "exitcond4_fu_217_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond3_fu_237_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond1_fu_276_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond_fu_339_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:663]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:663]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:663]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "exitcond5_fu_179_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond3_fu_244_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond4_fu_215_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond1_fu_287_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond_fu_336_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "op_tdata" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:447]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:447]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:506]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:506]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:506]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "exitcond3_fu_183_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond1_fu_241_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond2_fu_195_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond_fu_273_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "notlhs5_fu_358_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs6_fu_364_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs_fu_340_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_346_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "exitcond4_fu_161_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond1_fu_271_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond3_fu_185_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond2_fu_220_p2" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "exitcond_fu_292_p2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "notlhs4_fu_376_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_382_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs_fu_358_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_364_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-5544] ROM "exitcond_fu_625_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exitcond1_i_fu_402_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_i_fu_450_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exitcond_i4_fu_481_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "exitcond1_i1_fu_546_p2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exitcond_i1_fu_594_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_521_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs_fu_515_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3971] The signal gen_write[1].mem_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal gen_write[1].mem_reg was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1565.219 ; gain = 634.742 ; free physical = 4354 ; free virtual = 24037
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv1.vhd:635]
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/conv2.vhd:663]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ipshared/d104/hdl/vhdl/pool1.vhd:506]
+INFO: [Synth 8-5546] ROM "notlhs5_fu_358_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs6_fu_364_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs_fu_340_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_346_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs4_fu_376_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs5_fu_382_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs_fu_358_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_364_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/exp_over_int" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/ip_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/exp_just_over_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MULT.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notlhs_fu_515_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "notrhs_fu_521_p2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3971] The signal mnist_AXILiteS_s_axi_U/int_inputImage/gen_write[1].mem_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3971] The signal mnist_AXILiteS_s_axi_U/int_outputVector/gen_write[1].mem_reg was recognized as a true dual port RAM template.
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv1_fu_342/tmp_55_cast_reg_428_reg[2]' (FDE) to 'U0/grp_conv1_fu_342/tmp_47_reg_433_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[26]' (FDE) to 'U0/grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[27]' (FDE) to 'U0/grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[28]' (FDE) to 'U0/grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[29]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[30] )
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv1_fu_342/mnist_fadd_32ns_3cud_U1/mnist_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'U0/grp_conv1_fu_342/mnist_fadd_32ns_3cud_U1/mnist_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv2_fu_352/tmp_42_cast_reg_395_reg[2]' (FDE) to 'U0/grp_conv2_fu_352/tmp_40_cast_reg_390_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv2_fu_352/tmp_42_cast_reg_395_reg[3]' (FDE) to 'U0/grp_conv2_fu_352/tmp_40_cast_reg_390_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_conv2_fu_352/mnist_fadd_32ns_3cud_x_U9/mnist_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'U0/grp_conv2_fu_352/mnist_fadd_32ns_3cud_x_U9/mnist_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_pool2_fu_366/tmp_1_reg_438_reg[1]' (FDE) to 'U0/grp_pool2_fu_366/tmp_18_cast_reg_433_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/grp_pool2_fu_366/tmp_1_reg_438_reg[2]' (FDE) to 'U0/grp_pool2_fu_366/tmp_18_cast_reg_433_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/ip1Biases_U/mnist_ip1Biases_rom_U/q0_reg[26]' (FDE) to 'U0/ip1Biases_U/mnist_ip1Biases_rom_U/q0_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/ip1Biases_U/mnist_ip1Biases_rom_U/q0_reg[27]' (FDE) to 'U0/ip1Biases_U/mnist_ip1Biases_rom_U/q0_reg[28]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\ip1Biases_U/mnist_ip1Biases_rom_U/q0_reg[30] )
+INFO: [Synth 8-3886] merging instance 'U0/ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[26]' (FDE) to 'U0/ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[27]' (FDE) to 'U0/ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/mnist_fadd_32ns_3cud_x_U18/mnist_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[8]' (FDE) to 'U0/mnist_fadd_32ns_3cud_x_U18/mnist_ap_fadd_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.EXP/NOT_LOW_LATENCY_NORM_DIST.NORM_EXP_DELAY/i_pipe/opt_has_pipe.first_q_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[30] )
+INFO: [Synth 8-3886] merging instance 'U0/mnist_AXILiteS_s_axi_U/rstate_reg[1]' (FDSE) to 'U0/mnist_AXILiteS_s_axi_U/rstate_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\mnist_AXILiteS_s_axi_U/wstate_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[26] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[27] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[28] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/\grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/\grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[30] )
+WARNING: [Synth 8-3332] Sequential element (i_7_0) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_2) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_4) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_6) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_8) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_10) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_12) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_14) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_16) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_18) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_20) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_22) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_24) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_26) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_28) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_30) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_32) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_34) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_36) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_38) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_40) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_42) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_44) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_46) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_48) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_50) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_52) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_54) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_56) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_58) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_60) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_62) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (i_7_64) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (mnist_AXILiteS_s_axi_U/wstate_reg[2]) is unused and will be removed from module mnist.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_3_viv__1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_3_viv__1.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized1__1.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/tmp_47_reg_433_reg[10]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/tmp_55_cast_reg_428_reg[4]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[30]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/conv1Filters_0_0_U/conv1_conv1Filterbkb_rom_U/q0_reg[29]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[30]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[29]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[28]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[27]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv1_fu_342/mnist_fmul_32ns_3dEe_U2/din0_buf1_reg[26]) is unused and will be removed from module mnist.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_3_viv__2.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_3_viv__2.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized1__2.
+WARNING: [Synth 8-3332] Sequential element (grp_conv2_fu_352/tmp_45_cast_reg_408_reg[8]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_conv2_fu_352/tmp_49_cast_reg_439_reg[6]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (grp_pool2_fu_366/tmp_18_cast_reg_433_reg[6]) is unused and will be removed from module mnist.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_3_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[3].pipe_reg[3][0]) is unused and will be removed from module floating_point_v7_1_3_viv.
+INFO: [Synth 8-3332] Sequential element (i_nd_to_rdy/opt_has_pipe.i_pipe[2].pipe_reg[2][0]) is unused and will be removed from module floating_point_v7_1_3_viv__parameterized1.
+WARNING: [Synth 8-3332] Sequential element (tmp_31_reg_660_reg[11]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (tmp_36_reg_746_reg[9]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (ip1Biases_U/mnist_ip1Biases_rom_U/q0_reg[30]) is unused and will be removed from module mnist.
+WARNING: [Synth 8-3332] Sequential element (ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[30]) is unused and will be removed from module mnist.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1565.219 ; gain = 634.742 ; free physical = 5323 ; free virtual = 25007
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:46 ; elapsed = 00:00:46 . Memory (MB): peak = 1565.219 ; gain = 634.742 ; free physical = 4730 ; free virtual = 24424
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 1571.219 ; gain = 640.742 ; free physical = 4668 ; free virtual = 24361
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U0/ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[3]' (FDE) to 'U0/ip2Biases_U/mnist_ip2Biases_rom_U/q0_reg[9]'
+INFO: [Synth 8-4480] The timing for the instance U0/mnist_AXILiteS_s_axi_U/int_inputImage/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/mnist_AXILiteS_s_axi_U/int_inputImage/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/mnist_AXILiteS_s_axi_U/int_outputVector/gen_write[1].mem_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/conv1Output_0_U/mnist_conv1Output_0_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/conv1Output_0_U/mnist_conv1Output_0_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/conv2Output_U/mnist_conv2Output_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/conv2Output_U/mnist_conv2Output_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/pool2Output_U/mnist_pool2Output_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/pool2Output_U/mnist_pool2Output_ram_U/ram_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/ip1Weights_U/mnist_ip1Weights_rom_U/q0_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/ip1Weights_U/mnist_ip1Weights_rom_U/q0_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/ip2Weights_U/mnist_ip2Weights_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance U0/ip2Weights_U/mnist_ip2Weights_rom_U/q0_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4429 ; free virtual = 24135
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:00:52 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4427 ; free virtual = 24133
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:00:52 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4427 ; free virtual = 24133
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4432 ; free virtual = 24138
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4427 ; free virtual = 24133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4425 ; free virtual = 24131
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4429 ; free virtual = 24135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |CARRY4     |    25|
+|2     |DSP48E1    |     3|
+|3     |DSP48E1_1  |     3|
+|4     |DSP48E1_2  |     3|
+|5     |DSP48E1_3  |     3|
+|6     |DSP48E1_4  |     3|
+|7     |LUT1       |    54|
+|8     |LUT2       |   264|
+|9     |LUT3       |   673|
+|10    |LUT4       |   469|
+|11    |LUT5       |   623|
+|12    |LUT6       |   448|
+|13    |MUXCY      |   344|
+|14    |RAM16X1S   |   160|
+|15    |RAMB18E1   |     4|
+|16    |RAMB18E1_1 |     1|
+|17    |RAMB18E1_2 |     1|
+|18    |RAMB36E1   |     2|
+|19    |RAMB36E1_1 |     1|
+|20    |RAMB36E1_2 |     1|
+|21    |XORCY      |    75|
+|22    |FDE        |     9|
+|23    |FDRE       |  2161|
+|24    |FDSE       |    30|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1588.797 ; gain = 658.320 ; free physical = 4429 ; free virtual = 24135
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 514 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1588.797 ; gain = 202.043 ; free physical = 4433 ; free virtual = 24139
+Synthesis Optimization Complete : Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1588.805 ; gain = 658.328 ; free physical = 4433 ; free virtual = 24139
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 638 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/constraints/mnist_ooc.xdc] for cell 'U0'
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port ap_clk. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/constraints/mnist_ooc.xdc:6]
+Finished Parsing XDC File [/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/constraints/mnist_ooc.xdc] for cell 'U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 264 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 95 instances
+  FDE => FDRE: 9 instances
+  RAM16X1S => RAM32X1S (RAMS32): 160 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+405 Infos, 150 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:53 . Memory (MB): peak = 1620.812 ; gain = 601.832 ; free physical = 4419 ; free virtual = 24126
+INFO: [Common 17-1381] The checkpoint '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.runs/design_1_mnist_0_0_synth_1/design_1_mnist_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.srcs/sources_1/bd/design_1/ip/design_1_mnist_0_0/design_1_mnist_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 391 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.runs/design_1_mnist_0_0_synth_1/design_1_mnist_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.20 . Memory (MB): peak = 1644.824 ; gain = 0.000 ; free physical = 4383 ; free virtual = 24098
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 26 15:19:06 2018...

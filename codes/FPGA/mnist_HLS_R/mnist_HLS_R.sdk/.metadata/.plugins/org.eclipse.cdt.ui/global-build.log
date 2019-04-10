@@ -1,0 +1,1629 @@
+13:40:04 **** Build of project mnist_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_5/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/mnist_v1_0/src
+make -C ps7_cortexa9_0/libsrc/mnist_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_1/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_1/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling bram
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_5/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/mnist_v1_0/src
+make -C ps7_cortexa9_0/libsrc/mnist_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling mnist
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_1/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Finished building libraries
+13:40:13 **** Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/helloworld.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22328	   1148	  22568	  46044	   b3dc	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:40:16 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22328	   1148	 136744	 160220	  271dc	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:40:41 **** Clean-only build of configuration Debug for project mnist ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  mnist.elf.size  mnist.elf
+ 
+13:40:41 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:42:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;
+         ^
+Finished building: ../src/main.c
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+../src/neural.c: In function 'compareWithGold':
+../src/neural.c:63:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%f != %f\n\r", outputVector[i], goldVector[i]);
+    ^
+../src/neural.c:63:4: warning: incompatible implicit declaration of built-in function 'printf'
+../src/neural.c:63:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+Finished building: ../src/neural.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 258520	   2664	 137520	 398704	  61570	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:40:53 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:42:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;
+         ^
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 258520	   2664	 137520	 398704	  61570	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:40:58 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 258520	   2664	 137520	 398704	  61570	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:41:57 **** Incremental Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+13:42:30 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 205892	   1228	 136760	 343880	  53f48	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:43:29 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 205972	   1228	 136760	 343960	  53f98	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:43:55 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:46:180: warning: unused variable 'errorType9' [-Wunused-variable]
+     int errorType0=-1; int errorType1=-1; int errorType2=-1; int errorType3=-1; int errorType4=-1; int errorType5=-1; int errorType6=-1; int errorType7=-1; int errorType8=-1; int errorType9=-1;
+                                                                                                                                                                                    ^
+../src/main.c:46:161: warning: unused variable 'errorType8' [-Wunused-variable]
+     int errorType0=-1; int errorType1=-1; int errorType2=-1; int errorType3=-1; int errorType4=-1; int errorType5=-1; int errorType6=-1; int errorType7=-1; int errorType8=-1; int errorType9=-1;
+                                                                                                                                                                 ^
+../src/main.c:46:142: warning: unused variable 'errorType7' [-Wunused-variable]
+     int errorType0=-1; int errorType1=-1; int errorType2=-1; int errorType3=-1; int errorType4=-1; int errorType5=-1; int errorType6=-1; int errorType7=-1; int errorType8=-1; int errorType9=-1;
+                                                                                                                                              ^
+../src/main.c:46:123: warning: unused variable 'errorType6' [-Wunused-variable]
+     int errorType0=-1; int errorType1=-1; int errorType2=-1; int errorType3=-1; int errorType4=-1; int errorType5=-1; int errorType6=-1; int errorType7=-1; int errorType8=-1; int errorType9=-1;
+                                                                                                                           ^
+../src/main.c:46:104: warning: unused variable 'errorType5' [-Wunused-variable]
+     int errorType0=-1; int errorType1=-1; int errorType2=-1; int errorType3=-1; int errorType4=-1; int errorType5=-1; int errorType6=-1; int errorType7=-1; int errorType8=-1; int errorType9=-1;
+                                                                                                        ^
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 205984	   1228	 136760	 343972	  53fa4	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:47:37 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:48:09 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:50:02 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:50:06 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:50:25 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:50:30 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:50:53 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+13:50:58 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 206908	   1228	 136760	 344896	  54340	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:22:53 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 319276	   1228	 136760	 457264	  6fa30	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:23:32 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:45:20: warning: passing argument 1 of 'initInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+     initInputImage(inputImage); initGoldVector(goldVector);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:16:6: note: expected 'int (*)[1][28][28]' but argument is of type 'float (*)[1][28][28]'
+ void initInputImage(int inputImage[numberOfImages][inputImageDepth][inputImageLength][inputImageWidth]);
+      ^
+../src/main.c:66:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[0], network0);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:67:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[1], network1);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:68:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[2], network2);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:69:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[3], network3);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:70:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[4], network4);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:71:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[5], network5);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:72:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[6], network6);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:73:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[7], network7);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:74:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[8], network8);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/main.c:75:19: warning: passing argument 1 of 'writeInputImage' from incompatible pointer type [-Wincompatible-pointer-types]
+   writeInputImage(inputImage[9], network9);
+                   ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:18:6: note: expected 'int (*)[28][28]' but argument is of type 'float (*)[28][28]'
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+Finished building: ../src/main.c
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+../src/neural.c:29:6: error: conflicting types for 'writeInputImage'
+ void writeInputImage(float inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network)
+      ^
+In file included from ../src/neural.c:1:0:
+../src/neural.h:18:6: note: previous declaration of 'writeInputImage' was here
+ void writeInputImage(int inputImage[inputImageDepth][inputImageLength][inputImageWidth], XMnist network);
+      ^
+../src/neural.c:182:6: error: conflicting types for 'initInputImage'
+ void initInputImage(float inputImage[numberOfImages][inputImageDepth][inputImageLength][inputImageWidth])
+      ^
+In file included from ../src/neural.c:1:0:
+../src/neural.h:16:6: note: previous declaration of 'initInputImage' was here
+ void initInputImage(int inputImage[numberOfImages][inputImageDepth][inputImageLength][inputImageWidth]);
+      ^
+make: *** [src/neural.o] Error 1
+src/subdir.mk:27: recipe for target 'src/neural.o' failed
+16:23:37 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231292	   1228	 136760	 369280	  5a280	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:23:52 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231292	   1228	 136760	 369280	  5a280	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:24:05 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:45:48: warning: passing argument 1 of 'initGoldVector' from incompatible pointer type [-Wincompatible-pointer-types]
+     initInputImage(inputImage); initGoldVector(goldVector);
+                                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:17:6: note: expected 'float (*)[10]' but argument is of type 'int (*)[10]'
+ void initGoldVector(float goldVector[numberOfImages][outputVectorSize]);
+      ^
+../src/main.c:102:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[0], network0);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:103:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[1], network1);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:104:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[2], network2);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:105:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[3], network3);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:106:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[4], network4);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:107:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[5], network5);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:108:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[6], network6);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:109:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[7], network7);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:110:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[8], network8);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:111:20: warning: passing argument 1 of 'readOutputVector' from incompatible pointer type [-Wincompatible-pointer-types]
+   readOutputVector(outputVector[9], network9);
+                    ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:19:6: note: expected 'float *' but argument is of type 'int *'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network);
+      ^
+../src/main.c:114:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType0 = compareWithGold(outputVector[0], goldVector[0]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:114:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType0 = compareWithGold(outputVector[0], goldVector[0]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:115:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType1 = compareWithGold(outputVector[1], goldVector[1]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:115:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType1 = compareWithGold(outputVector[1], goldVector[1]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:116:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType2 = compareWithGold(outputVector[2], goldVector[2]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:116:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType2 = compareWithGold(outputVector[2], goldVector[2]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:117:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType3 = compareWithGold(outputVector[3], goldVector[3]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:117:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType3 = compareWithGold(outputVector[3], goldVector[3]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:118:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType4 = compareWithGold(outputVector[4], goldVector[4]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:118:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType4 = compareWithGold(outputVector[4], goldVector[4]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:119:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType5 = compareWithGold(outputVector[5], goldVector[5]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:119:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType5 = compareWithGold(outputVector[5], goldVector[5]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:120:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType6 = compareWithGold(outputVector[6], goldVector[6]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:120:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType6 = compareWithGold(outputVector[6], goldVector[6]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:121:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType7 = compareWithGold(outputVector[7], goldVector[7]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:121:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType7 = compareWithGold(outputVector[7], goldVector[7]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:122:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType8 = compareWithGold(outputVector[8], goldVector[8]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:122:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType8 = compareWithGold(outputVector[8], goldVector[8]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:123:32: warning: passing argument 1 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType9 = compareWithGold(outputVector[9], goldVector[9]);
+                                ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+../src/main.c:123:49: warning: passing argument 2 of 'compareWithGold' from incompatible pointer type [-Wincompatible-pointer-types]
+   errorType9 = compareWithGold(outputVector[9], goldVector[9]);
+                                                 ^
+In file included from ../src/main.c:9:0:
+../src/neural.h:20:5: note: expected 'float *' but argument is of type 'int *'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize]);
+     ^
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231292	   1228	 136760	 369280	  5a280	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:24:13 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+../src/neural.c:78:6: error: conflicting types for 'initGoldVector'
+ void initGoldVector(int goldVector[numberOfImages][outputVectorSize])
+      ^
+In file included from ../src/neural.c:1:0:
+../src/neural.h:17:6: note: previous declaration of 'initGoldVector' was here
+ void initGoldVector(float goldVector[numberOfImages][outputVectorSize]);
+      ^
+src/subdir.mk:27: recipe for target 'src/neural.o' failed
+make: *** [src/neural.o] Error 1
+16:24:27 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+../src/neural.c:44:6: error: conflicting types for 'readOutputVector'
+ void readOutputVector(float outputVector[outputVectorSize], XMnist network)
+      ^
+In file included from ../src/neural.c:1:0:
+../src/neural.h:19:6: note: previous declaration of 'readOutputVector' was here
+ void readOutputVector(int outputVector[outputVectorSize], XMnist network);
+      ^
+../src/neural.c:55:5: error: conflicting types for 'compareWithGold'
+ int compareWithGold(float outputVector[outputVectorSize], float goldVector[outputVectorSize])
+     ^
+In file included from ../src/neural.c:1:0:
+../src/neural.h:20:5: note: previous declaration of 'compareWithGold' was here
+ int compareWithGold(int outputVector[outputVectorSize], int goldVector[outputVectorSize]);
+     ^
+make: *** [src/neural.o] Error 1
+src/subdir.mk:27: recipe for target 'src/neural.o' failed
+16:25:07 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 230888	   1228	 136760	 368876	  5a0ec	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:25:20 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 230868	   1228	 136760	 368856	  5a0d8	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:33:02 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:33:18 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:34:29 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:34:35 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:35:08 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:35:15 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:35:39 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+16:35:43 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:11:18 **** Build of project mnist_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_5/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/mnist_v1_0/src
+make -C ps7_cortexa9_0/libsrc/mnist_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_1/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_1/src
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling bram
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_1/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_2/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_5/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_1/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/mnist_v1_0/src
+make -C ps7_cortexa9_0/libsrc/mnist_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling mnist
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_1/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_3/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles"
+Compiling scutimer
+Finished building libraries
+10:11:28 **** Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+../src/neural.c: In function 'readOutputVector':
+../src/neural.c:54:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("%f\n\r", intToFloat(value));
+   ^
+../src/neural.c:54:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/neural.c:54:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/neural.c:56:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf("\n\r");
+  ^
+../src/neural.c:56:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+Finished building: ../src/neural.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 283864	   2664	 137520	 424048	  67870	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:11:38 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 283864	   2664	 137520	 424048	  67870	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:12:08 **** Incremental Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:13:19 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+../src/neural.c: In function 'readOutputVector':
+../src/neural.c:54:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("%i\n\r", value);
+   ^
+../src/neural.c:54:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/neural.c:54:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/neural.c:56:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf("\n\r");
+  ^
+../src/neural.c:56:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 283864	   2664	 137520	 424048	  67870	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:14:15 **** Incremental Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:17:31 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+../src/neural.c: In function 'readOutputVector':
+../src/neural.c:54:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("%i\n\r", value);
+   ^
+../src/neural.c:54:3: warning: incompatible implicit declaration of built-in function 'printf'
+../src/neural.c:54:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/neural.c:56:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf("\n\r");
+  ^
+../src/neural.c:56:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 283864	   2664	 137520	 424048	  67870	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:17:57 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 283872	   2664	 137520	 424056	  67878	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:18:03 **** Incremental Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:18:25 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 283864	   2664	 137520	 424048	  67870	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:18:41 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:18:47 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:20:21 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:20:39 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:20:47 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:20:54 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:21:15 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:21:19 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:21:28 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+10:21:50 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231268	   1228	 136760	 369256	  5a268	mnist.elf
+Finished building: mnist.elf.size
+ 
+15:44:08 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/neural.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/neural.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/neural.d" -MT"src/neural.o" -o "src/neural.o" "../src/neural.c"
+Finished building: ../src/neural.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231328	   1228	 136760	 369316	  5a2a4	mnist.elf
+Finished building: mnist.elf.size
+ 
+15:44:17 **** Auto Build of configuration Debug for project mnist ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../mnist_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: mnist.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../mnist_bsp/ps7_cortexa9_0/lib -o "mnist.elf"  ./src/main.o ./src/neural.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: mnist.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size mnist.elf  |tee "mnist.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 231328	   1228	 136760	 369316	  5a2a4	mnist.elf
+Finished building: mnist.elf.size
+ 

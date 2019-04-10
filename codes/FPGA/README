@@ -1,0 +1,7 @@
+Files are in [mnist_HLS_R](./mnist_HLS_R) foldes
+
+- Open the HLS project, synthesize it and the pack it as a new IP.
+
+- Open the Vivado project, add the IP to the catalog, then create a block diagram connecting the created IP and the Zynq PS, click on “validate design”, save it, create an HDL wrapper, generate the bitstream and then export it to SDK.
+
+- On the SDK window, you should find the C source files for the PS part of the application. If not, create a new application project and add the files from the _sdk directory that can be found in the provided Vivado project folder.

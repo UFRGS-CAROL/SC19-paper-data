@@ -1,0 +1,80 @@
+13:39:38 INFO  : Registering command handlers for SDK TCF services
+13:39:41 INFO  : Launching XSCT server: xsct -n -interactive /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/temp_xsdb_launch_script.tcl
+13:39:41 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+13:39:42 INFO  : XSCT server has started successfully.
+13:39:42 INFO  : Successfully done setting XSCT server connection channel  
+13:39:42 INFO  : Successfully done setting SDK workspace  
+13:39:42 INFO  : Processing command line option -hwspec /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper.hdf.
+13:42:03 INFO  : System reset is completed.
+13:42:06 INFO  : FPGA configured successfully with bitstream "/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+13:42:06 INFO  : ps7_init is completed.
+13:42:06 INFO  : ps7_post_config is completed.
+15:27:23 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:17:00 INFO  : Registering command handlers for SDK TCF services
+16:17:01 INFO  : Launching XSCT server: xsct -n -interactive /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/temp_xsdb_launch_script.tcl
+16:17:01 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+16:17:04 INFO  : XSCT server has started successfully.
+16:17:04 INFO  : Successfully done setting XSCT server connection channel  
+16:17:06 INFO  : Successfully done setting SDK workspace  
+16:17:06 INFO  : Processing command line option -hwspec /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper.hdf.
+16:17:06 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+16:32:47 INFO  : Registering command handlers for SDK TCF services
+16:32:48 INFO  : Launching XSCT server: xsct -n -interactive /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/temp_xsdb_launch_script.tcl
+16:32:48 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+16:32:49 INFO  : XSCT server has started successfully.
+16:32:49 INFO  : Successfully done setting XSCT server connection channel  
+16:32:49 INFO  : Successfully done setting SDK workspace  
+16:32:49 INFO  : Processing command line option -hwspec /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper.hdf.
+16:32:49 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+09:41:28 INFO  : Registering command handlers for SDK TCF services
+09:41:29 INFO  : Launching XSCT server: xsct -n -interactive /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/temp_xsdb_launch_script.tcl
+09:41:29 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+09:41:30 INFO  : XSCT server has started successfully.
+09:41:30 INFO  : Successfully done setting XSCT server connection channel  
+09:41:30 INFO  : Successfully done setting SDK workspace  
+09:41:30 INFO  : Processing command line option -hwspec /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper.hdf.
+09:41:30 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:09:44 INFO  : Registering command handlers for SDK TCF services
+10:09:44 INFO  : Launching XSCT server: xsct -n -interactive /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/temp_xsdb_launch_script.tcl
+10:09:44 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+10:09:45 INFO  : XSCT server has started successfully.
+10:09:45 INFO  : Successfully done setting XSCT server connection channel  
+10:09:45 INFO  : Successfully done setting SDK workspace  
+10:09:45 INFO  : Processing command line option -hwspec /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper.hdf.
+10:09:46 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+10:12:13 INFO  : System reset is completed.
+10:12:16 INFO  : FPGA configured successfully with bitstream "/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:12:16 INFO  : ps7_init is completed.
+10:12:16 INFO  : ps7_post_config is completed.
+10:14:17 INFO  : System reset is completed.
+10:14:19 INFO  : FPGA configured successfully with bitstream "/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:14:20 INFO  : ps7_init is completed.
+10:14:20 INFO  : ps7_post_config is completed.
+10:18:05 INFO  : System reset is completed.
+10:18:07 INFO  : FPGA configured successfully with bitstream "/home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+10:18:08 INFO  : ps7_init is completed.
+10:18:08 INFO  : ps7_post_config is completed.
+10:22:11 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:41:31 INFO  : Registering command handlers for SDK TCF services
+15:41:31 INFO  : Launching XSCT server: xsct -n -interactive /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/temp_xsdb_launch_script.tcl
+15:41:31 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+15:41:32 INFO  : XSCT server has started successfully.
+15:41:32 INFO  : Successfully done setting XSCT server connection channel  
+15:41:32 INFO  : Successfully done setting SDK workspace  
+15:41:32 INFO  : Processing command line option -hwspec /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper.hdf.
+15:41:33 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.
+14:10:19 INFO  : Registering command handlers for SDK TCF services
+14:10:20 INFO  : Launching XSCT server: xsct -n -interactive /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/temp_xsdb_launch_script.tcl
+14:10:20 ERROR : (XSDB Server)awk: symbol lookup error: awk: undefined symbol: mpfr_z_sub
+
+14:10:21 INFO  : XSCT server has started successfully.
+14:10:21 INFO  : Successfully done setting XSCT server connection channel  
+14:10:21 INFO  : Successfully done setting SDK workspace  
+14:10:21 INFO  : Processing command line option -hwspec /home/fplibano/vivado/mnist_HLS_R/mnist_HLS_R.sdk/design_1_wrapper.hdf.
+14:10:22 INFO  : Checking for hwspec changes in the project design_1_wrapper_hw_platform_0.

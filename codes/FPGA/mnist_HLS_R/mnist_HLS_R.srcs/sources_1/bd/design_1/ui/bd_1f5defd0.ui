@@ -1,0 +1,56 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.5b  2016-09-06 bk=1.3687 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 570 -defaultsOSRD
+preplace port tx -pg 1 -y 40 -defaultsOSRD
+preplace port rx -pg 1 -y 110 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 590 -defaultsOSRD
+preplace inst mnist_4 -pg 1 -lvl 3 -y 900 -defaultsOSRD
+preplace inst mnist_5 -pg 1 -lvl 3 -y 1020 -defaultsOSRD
+preplace inst mnist_6 -pg 1 -lvl 3 -y 1140 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -y 160 -defaultsOSRD
+preplace inst mnist_7 -pg 1 -lvl 3 -y 1260 -defaultsOSRD
+preplace inst mnist_8 -pg 1 -lvl 3 -y 1380 -defaultsOSRD
+preplace inst mnist_9 -pg 1 -lvl 3 -y 1500 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 920 -defaultsOSRD
+preplace inst mnist_0 -pg 1 -lvl 3 -y 380 -defaultsOSRD
+preplace inst mnist_1 -pg 1 -lvl 3 -y 500 -defaultsOSRD
+preplace inst tmr_control_dut_0 -pg 1 -lvl 3 -y 100 -defaultsOSRD
+preplace inst mnist_2 -pg 1 -lvl 3 -y 660 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 260 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 430 -defaultsOSRD
+preplace inst mnist_3 -pg 1 -lvl 3 -y 780 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 650 -defaultsOSRD
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 790
+preplace netloc processing_system7_0_DDR 1 1 4 NJ 570 NJ 570 NJ 570 NJ
+preplace netloc tmr_control_dut_0_mem0_web 1 3 1 1150
+preplace netloc rx_1 1 0 3 NJ 110 NJ 110 NJ
+preplace netloc ps7_0_axi_periph_M09_AXI 1 2 1 770
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 1180
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 450
+preplace netloc tmr_control_dut_0_tx 1 3 2 1190J 40 NJ
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 440 470 810
+preplace netloc ps7_0_axi_periph_M07_AXI 1 2 1 820
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 520 430
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 750
+preplace netloc tmr_control_dut_0_mem0_addrb 1 3 1 1190
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 760
+preplace netloc ps7_0_axi_periph_M08_AXI 1 2 1 790
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 830
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 NJ 590 NJ 590 NJ 590 NJ
+preplace netloc tmr_control_dut_0_mem0_enb 1 3 1 1160
+preplace netloc ps7_0_axi_periph_M05_AXI 1 2 1 790
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 770
+preplace netloc tmr_control_dut_0_mem0_dinb 1 3 1 1170
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 260 470 260 800 10 1200
+preplace netloc ps7_0_axi_periph_M10_AXI 1 2 1 750
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 780
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 2 2 830 190 NJ
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 1 460
+levelinfo -pg 1 0 230 610 990 1320 1450 -top 0 -bot 1570
+",
+}
+{
+   da_axi4_cnt: "10",
+   da_bram_cntlr_cnt: "1",
+}
